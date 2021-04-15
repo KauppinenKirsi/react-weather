@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Weather from './Weather';
 
 export default class Position extends Component {
    constructor(props) {
@@ -36,6 +37,7 @@ export default class Position extends Component {
             <div>
                 <h3>Your position is</h3>
                 <p>Position: {lat.toFixed(3)},{lng.toFixed(3)}</p>
+                <Weather lat={lat} lng={lng} />
             </div>
         );
     }
