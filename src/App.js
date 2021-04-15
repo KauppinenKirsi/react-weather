@@ -1,8 +1,9 @@
 import './App.css';
+import Position from './Position';
 
 function App() {
   return (
-    <h1>Moi!</h1>
+    <Position />
   );
 }
 
